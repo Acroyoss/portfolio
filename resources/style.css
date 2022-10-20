@@ -1,0 +1,105 @@
+* {
+    background-color: #fffdfa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: aliceblue;
+    border-bottom: 4px solid antiquewhite;
+}
+
+header h1 {
+    font-style: italic;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+}
+
+.navbuttons {
+    background-color: aliceblue;
+}
+
+.navbuttons h4 {
+    display: inline;
+}
+
+a {
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
+    box-shadow: 0 2px;  
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:active {
+    box-shadow: 0 0;
+    margin-top: 5px;
+    color: #b5e8b8;
+    background-color: #e2cfff;
+}
+
+.dots {
+    text-align: center;
+}
+
+body {
+    margin-top: 200px;
+}
+
+.table-title1 h2,
+    .table-title2 h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-size:larger;
+}
+
+table {
+    display:table;
+    text-align: left;
+    padding: 5px;
+    margin: 0 auto;
+    border: 4px solid #b59357;
+    width: 650px;
+    box-sizing: border-box;
+}
+
+thead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    display: table-cell;
+    background-color: oldlace;
+}
+
+td {
+    border-top: 1px solid brown;
+}
+
+#code {
+    background-color: lavender;
+}
+
+#table1,
+    #table2 {
+   margin-top: 5px;
+   margin-bottom: 50px;
+   background-color: azure;
+   width: 900px;
+}
