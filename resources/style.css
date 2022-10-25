@@ -75,6 +75,7 @@ table {
     border: 4px solid #b59357;
     width: 650px;
     box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
 }
 
 thead {

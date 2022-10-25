@@ -1,0 +1,73 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: seashell;
+}
+
+body {
+    text-align: center;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    min-height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    block-size: auto;
+}
+
+.title img {
+    display: inline-flex;
+    height: 50px;
+    margin: 0 10px;
+    float: left;
+}
+
+.navigation li {
+    display: inline-flex;
+    float: right;
+    justify-content: space-between;
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.first {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Mission {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 69px;
+    min-height: 700px;
+    min-width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*15y54r7*_ga*OTg2NzM5MjY4LjE2NjY1NDk1MjY.*_ga_3LRZM6TM9L*MTY2NjU0OTUyNS4xLjEuMTY2NjU1MTg3NS41Ny4wLjA.");
+}
+
+.MissionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.second {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 1500px;
+}
+
+.featured {
+    height: 100px;
+    margin-top: 50px;
+}
