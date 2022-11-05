@@ -34,6 +34,21 @@ body {
     font-size: 22px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border: 1px solid white;
+    border-radius: 4px 4px 4px 4px;
+}
+
+a:active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
 .first {
     display: flex;
     text-align: center;
